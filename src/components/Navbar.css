@@ -1,0 +1,45 @@
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    background-color: #000000;
+    color: white;
+  }
+  
+  .navbar__left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar__logo {
+    width: 400px; 
+    height: auto;
+    margin-right: 1rem;
+  }
+  
+  .navbar__right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-login-button {
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s; 
+  }
+  
+  .nav-login-button:hover {
+    color: #6365cc; 
+  }
+  .user-icon {
+    margin-right: 0.5rem;
+    font-size: 20px;
+    /* color: white; */
+  }
+  

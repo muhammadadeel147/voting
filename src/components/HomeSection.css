@@ -1,0 +1,56 @@
+.home-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; 
+  padding: 2rem 2rem;
+  background-color: #000000;
+  color: white;
+  height: 86vh;
+  
+}
+
+.home-left-section {
+  width: 60%;
+  text-align: left; 
+}
+
+.home-right-section {
+  width: 40%;
+  margin-top: 140px;
+}
+
+.heading {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.reasons-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.reasons-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  color: #fff;
+  transition: color 0.3s; 
+}
+
+
+.tick-icon {
+  margin-right: 0.5rem;
+}
+
+.home-button-primary {
+  width: 40%; 
+  margin-top: 1rem; 
+  transition: background-color 0.3s; 
+  padding: 10px;
+  background-color: #242449;
+  color: #fff;
+}
+
+.home-button-primary:hover {
+  background-color: #6F00FF; 
+}
